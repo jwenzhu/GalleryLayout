@@ -5,4 +5,15 @@
     android:gravity="center"
     android:orientation="vertical" >
 
+    <com.jwen.gallerylayout.widget.GalleryLayout
+        android:id="@+id/galleryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.jwen.gallerylayout.widget.GalleryLayout>
+    <TextView
+        android:id="@+id/tv_asyncTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
